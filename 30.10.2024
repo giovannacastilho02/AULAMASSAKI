@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNMY94K3SE2CA/kyajVMLTW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/giovannacastilho02/AULAMASSAKI/blob/main/30.10.2024\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rr10gVJQsnM2",
+        "outputId": "2017a5e7-8e65-4d72-ec40-7501d51b4e15"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[('Pedro', '584.322.689-95', '(21) 98756-9564')]\n"
+          ]
+        }
+      ],
+      "source": [
+        "cliente1 = ('Julia', '123.321.456-45', '(11) 99999-9999')\n",
+        "cliente2 = ('Giovanna', '789.987.654-65', '(11) 95555-5555')\n",
+        "cliente3 = ('Pedro', '584.322.689-95', '(21) 98756-9564')\n",
+        "clientes = []\n",
+        "clientes.append(cliente3)\n",
+        "print(clientes)\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "NotasEngPROD = {\"Nome\": [\"Fábio\", \"Pedro\", \"Luís\"],\n",
+        "                \"Nota\": [10, 10, 9]}\n",
+        "print(NotasEngPROD)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dVEWtlFPvJRv",
+        "outputId": "18e56eef-6016-4ed9-dc0c-ebc0c53dd46e"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Nome': ['Fábio', 'Pedro', 'Luís'], 'Nota': [10, 10, 9]}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
